@@ -1,3 +1,5 @@
+import org.gradle.api.internal.CompositeDomainObjectSet.create
+
 dependencyResolutionManagement {
 
     // Use Maven Central and the Gradle Plugin Portal for resolving dependencies in the shared build logic (`buildSrc`) project.

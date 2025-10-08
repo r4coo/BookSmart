@@ -11,3 +11,8 @@ dependencies {
     implementation(libs.bundles.kotlinxEcosystem)
     testImplementation(kotlin("test"))
 }
+
+kotlin {
+    // 1. Usar el Toolchain es lo mejor
+    jvmToolchain(17)
+}
